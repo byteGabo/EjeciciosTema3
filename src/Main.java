@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(sumas(20,30,10));
+        System.out.println("La suma de los numero es: " + sumas(20,30,10));
 
         coche micoche = new coche();
+        micoche.setPuertas(2);
         micoche.setPuertas(2);
         System.out.println("El coche tiene: " + micoche.getPuertas() + " puertas");
 
